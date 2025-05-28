@@ -1,0 +1,24 @@
+// src/index.scss
+
+@import "bootstrap/scss/bootstrap";
+
+// Make sure html, body and root fill the screen
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+// Don’t center the whole body!
+body {
+  display: block;
+}
+
+// Optional reset
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* your other theming below… */
+:root { /* … */ }
